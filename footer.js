@@ -13,7 +13,7 @@ pageFooter.innerHTML = `<section class="socials-links-section">
             <span class="hyperlink-text">
                 LinkedIn
             </span>
-            <img src="/personal-site-rough-assets/iconmonstr-linkedin-3-240 copy.png" alt="LinkedIn logo of the letters i and n in a square" class="socials-icon">
+            <img src="./personal-site-rough-assets/iconmonstr-linkedin-3-240.png" alt="LinkedIn logo of the letters i and n in a square" class="socials-icon">
         </a>
     </div>
     <div class="socials-links">
@@ -21,7 +21,7 @@ pageFooter.innerHTML = `<section class="socials-links-section">
             <span class="hyperlink-text">
                 Twitter
             </span>
-            <img src="/personal-site-rough-assets/iconmonstr-twitter-3-240 copy.png" alt="twitter logo of a bird in a square" class="socials-icon">
+            <img src="./personal-site-rough-assets/iconmonstr-twitter-3-240.png" alt="twitter logo of a bird in a square" class="socials-icon">
         </a>
     </div>
 </section>
