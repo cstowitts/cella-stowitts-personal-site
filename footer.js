@@ -5,7 +5,7 @@ pageFooter.innerHTML = `<section class="socials-links-section">
             <span class="hyperlink-text">
                 GitHub
             </span>
-            <img src="/personal-site-rough-assets/iconmonstr-github-3-240 copy.png" alt="GitHub logo of a cat-octopus in a square" class="socials-icon">
+            <img src="./personal-site-rough-assets/iconmonstr-github-3-240.png" alt="GitHub logo of a cat-octopus in a square" class="socials-icon">
         </a>
     </div>
     <div class="socials-links">
