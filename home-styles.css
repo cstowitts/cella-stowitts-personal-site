@@ -2,10 +2,10 @@
     width: auto;
     display: flex;
     justify-content: space-between;
-    margin: 2%;
+    margin: 6% 2% 2% 2%;
     padding: 3%;
 
-    border: solid 2px aqua;
+    /* border: solid 2px aqua; */
 }
 
 .welcome-article{
@@ -14,28 +14,43 @@
     justify-content: space-between;
     width: 90%;
     margin-right: 7%;
+    min-width: 400px;
+    min-height: 250px;
 
     /* border: solid 3px magenta; */
 }
 
+.welcome-text {
+    margin-bottom: 20px;
+
+    /* border: solid 3px springgreen; */
+}
+
 .greeting-text {
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 500;
 }
 
 .blurb-emphasis {
     font-family: 'Josefin Slab', serif;
-    font-size: 60px;
+    font-size: 48px;
+}
+
+p > span {
+    font-weight: bolder;
 }
 
 p span {
-    color: white;
+    color: #5a38fd;
+
 }
 
 .welcome.img-section {
     display: flex;
     justify-content: flex-end;
+    min-width: 400px;
+    min-height: 250px;
 
     /* border: solid 3px maroon; */
 }

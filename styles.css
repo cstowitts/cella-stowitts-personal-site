@@ -30,8 +30,22 @@ body {
     font-size: 40px;
     color: #5a38fd;
     text-decoration: none;
+/* setting up the hover color effect for the left top logo */
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
 
     /* border: solid 2px darkgoldenrod; */
+}
+
+.logo:hover {
+    color: #82b1ff;
+    text-shadow:0px 0px 15px white;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
 }
 
 .nav-div {
@@ -58,19 +72,37 @@ body {
 .nav-button {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 18px; 
+    font-size: 14px; 
     color: white;
-    padding: 2px;
-    background: none;
+    border-radius: 5px;
+    padding: 5px;
+    /* this styling for the the gradient effect */
+    background: linear-gradient(45deg, #5a38fd, #82b1ff);
+    /* -webkit-mask:
+        linear-gradient :(#fff 0 0) content-box;
+        linear-gradient :(#fff 0 0);
+    -webkit-mask-composite: destination-out; 
+        
+    commenting this didn't change any behavior??
+    */
+    mask-composite: exclude;
+    /* this styling is to set up the slide effect upon hover */
+    box-shadow: inset 0 0 0 0 #9d89fc;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
 }
 
 .nav-button:hover {
-    color: #82b1ff;
+    color: #5a38fd;
+    font-weight: bolder;
+    /* makes the button act like an aperture slide effect */
+    box-shadow: inset 0 0 0 50px white;
 }
 
 .nav-button:focus {
     /* outline: white auto 1px; */
-    color: #5a38fd;
+    color: #9d89fc;
     border-color: currentColor;
     background-color: white;
     font-weight: 700;
@@ -92,38 +124,34 @@ footer {
 }
 
 .socials-links-section {
+    height: 80%;
     display: flex;
 
+    /* border: solid 3px orange; */
 }
 
 .socials-icon {
-    width: 40px;
+    width: 30px;
 }
 
-
-/* home/landing page styles start here */
-
-
-
-
-
-
-/* 
-.page-bottom {
-    border: solid 3px orchid;
-} */
-
 .socials-links {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin: 10px;
+
+    /* border: solid 3px yellow; */
+}
+
+div > a {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
 }
 
 .socials-links-hyperlink {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+    font-size: 12px;
+    font-weight: 400;
     color: black;
 }
 
@@ -142,7 +170,7 @@ footer {
 .email-me-link {
     text-decoration: none;
     font-family: 'Josefin Slab', serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     color: #5a38fd;
 }

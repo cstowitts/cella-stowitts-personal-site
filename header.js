@@ -35,12 +35,13 @@ pageHeader.innerHTML = `<div class="logo-div">
             </button>
         </a>
     </div>
-    <div class="nav rec">
-        <a href="reCREATION.html" class="rec button-link">
-            <button class="nav-button rec">
-                reCREATIONal
-            </button>
-        </a>
-    </div>
+    
 </nav>
 </div>`;
+// <div class="nav rec">
+    //     <a href="reCREATION.html" class="rec button-link">
+    //         <button class="nav-button rec">
+    //             reCREATIONal
+    //         </button>
+    //     </a>
+    // </div>
