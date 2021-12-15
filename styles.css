@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background: #e2d9f6;
+}
+
+
+.page-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: black;
+
+    /* border: solid 3px orchid; */
+}
+
+.logo {
+    font-family: 'Josefin Slab', serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #5a38fd;
+    text-decoration: none;
+
+    /* border: solid 2px darkgoldenrod; */
+}
+
+.nav-div {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    /* border: solid 2px cornflowerblue; */
+}
+
+.header-nav-bar {
+    width: 75%;
+    display: flex;
+    justify-content: flex-end;
+
+    /* border: solid 2px orange; */
+}
+
+.nav {
+    margin-left: 1vw;
+
+    /* border: solid 2px lawngreen; */
+}
+
+.nav-button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px; 
+    color: white;
+    padding: 2px;
+    background: none;
+}
+
+.nav-button:hover {
+    color: #82b1ff;
+}
+
+.nav-button:focus {
+    /* outline: white auto 1px; */
+    color: #5a38fd;
+    border-color: currentColor;
+    background-color: white;
+    font-weight: 700;
+}
+
+.nav-button:visited {
+    color: #9d89fc;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    /* border: solid 3px green; */
+}
+
+.socials-links-section {
+    display: flex;
+
+}
+
+.socials-icon {
+    width: 40px;
+}
+
+
+/* home/landing page styles start here */
+
+
+
+
+
+
+/* 
+.page-bottom {
+    border: solid 3px orchid;
+} */
+
+.socials-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.socials-links-hyperlink {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: black;
+}
+
+.socials-links-hyperlink:hover {
+    color: #5a38fd;
+}
+
+.socials-links-hyperlink:visited {
+    color: #82b1ff;
+}
+
+.email-link {
+    margin-top: 10px;
+}
+
+.email-me-link {
+    text-decoration: none;
+    font-family: 'Josefin Slab', serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #5a38fd;
+}

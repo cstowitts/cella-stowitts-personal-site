@@ -1,0 +1,47 @@
+.big-welcome-main {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+    padding: 3%;
+
+    border: solid 2px aqua;
+}
+
+.welcome-article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    margin-right: 7%;
+
+    /* border: solid 3px magenta; */
+}
+
+.greeting-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.blurb-emphasis {
+    font-family: 'Josefin Slab', serif;
+    font-size: 60px;
+}
+
+p span {
+    color: white;
+}
+
+.welcome.img-section {
+    display: flex;
+    justify-content: flex-end;
+
+    /* border: solid 3px maroon; */
+}
+
+.welcome.illustration {
+    width: 90%;
+
+    /* border: solid 3px red; */
+}

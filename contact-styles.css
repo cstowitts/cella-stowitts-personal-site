@@ -1,0 +1,116 @@
+.contact-page.big-daddy-div {
+    width: 100%;
+    height: 100%;
+   
+    border: solid 3px springgreen;
+}
+
+.contact-title-area {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+
+    border: solid 3px yellow;
+}
+
+
+.contact-me {
+    font-family: 'Josefin Slab', serif;
+    font-size: 70px;
+    color: #5a38fd;
+}
+
+
+.form-div {
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+
+    border: solid 3px blue;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    max-width: 500px;
+    max-height: 600px;
+
+    border: solid 3px red;
+}
+
+.form-req-caption {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.form-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+input {
+    width: 100%;
+    box-shadow: 6px 6px 2px 1px #82b1ff;
+    
+}
+
+::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+textarea {
+    box-shadow: 6px 6px 2px 1px #82b1ff;
+}
+
+.names.form-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.first-name.form-section {
+    margin-right: 20px;
+}
+
+.paragraph.form-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    border: solid 3px olivedrab;
+}
+
+.paragraph.form-field {
+    margin-bottom: 30px;
+}
+
+.submit.form-section {
+    display: flex;
+    align-items: center;
+}
+
+input[type="submit"] {
+    width: 75%;
+    box-shadow: none;
+    color: #5a38fd;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+

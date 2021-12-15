@@ -1,0 +1,124 @@
+.about-page.big-daddy-div {
+    width: 100%;
+    height: 100%;
+
+    /* border: solid 3px seagreen; */
+}
+
+.big-about-container {
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+
+    /* border: solid 2px orange; */
+}
+
+.left-container {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    /* border: solid 3px sienna; */
+}
+
+.about-everything-pre-download-section {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    /* border: solid 2px red; */
+}
+
+/* .name-title-header {
+    border: solid 2px springgreen;
+} */
+
+.about.name.title {
+    font-family: 'Josefin Slab', serif;
+    font-weight: 700;
+    font-size: 80px;
+    color: #5a38fd;
+}
+
+.about-text-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    /* border: solid 3px blueviolet; */
+}
+
+.about-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    /* border: solid 2px cyan; */
+}
+
+.about-text.part-one {
+    margin-top: 40px;
+}
+
+.right-div {
+    width: 45%;
+    display: flex;
+    align-items: center;
+
+    /* border: solid 3px blueviolet; */
+}
+
+.img-div {
+    width: 100%;
+    display: flex;
+
+    /* border: solid 3px blue; */
+
+}
+
+.about-download-section {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* border: solid 2px slategrey */
+}
+
+.download-link {
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* border: solid 3px olive; */
+}
+
+.about-download-icon {
+    height: 80px;
+    width: 80px;
+
+    /* border: solid 2px magenta; */
+}
+
+.resume-download-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px; 
+    color: #5a38fd;
+    
+    /* border: solid 3px rosybrown; */
+
+}
+
+
+.about-illustration{
+    width: 100%;
+}

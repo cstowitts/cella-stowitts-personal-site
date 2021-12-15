@@ -1,0 +1,84 @@
+.project-page.big-daddy-div{
+    width: 100%;
+    height: 100%;
+
+
+}
+.project-gallery {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    border: solid 3px yellow;
+}
+
+.project-page.header {
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+
+    /* border: solid 3px brown; */
+}
+
+.project-page.title {
+    font-family: 'Josefin Slab', serif;
+    font-size: 70px;
+    color: #5a38fd;
+}
+
+.project-page.project-cards-article{
+    display: flex;
+    justify-content: space-around;
+
+    border: solid 3px mediumspringgreen
+}
+
+.projects-one-and-two {
+    
+
+
+    border: solid 3px orangered;
+}
+
+
+.projects-three-and-four {
+
+    border: solid 3px orchid;
+}
+
+.project-card {
+    margin: 5%;
+
+
+    border: solid 3px blue;
+}
+
+.project-card-name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    letter-spacing: 4px;
+}
+
+.project-card-blurb {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.project-card-img {
+    width: 300px;
+}
+
+.project-card-img.one {
+    height: 300px;
+    width: auto;
+    transform: rotate(90deg);
+
+}
+
+.project-card-img.three {
+   height: 200px;
+}
