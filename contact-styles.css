@@ -38,7 +38,7 @@
     justify-content: center;
     margin: 5%;
     /* make form backgroun an img and position it, make it fill */
-    background: url("/personal-site-rough-assets/pablita-211.png");
+    background: url("./personal-site-rough-assets/pablita-211.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

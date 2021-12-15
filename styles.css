@@ -174,3 +174,14 @@ div > a {
     font-weight: 600;
     color: #5a38fd;
 }
+
+.attribution-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: black;
+}
+
+p > a {
+    text-decoration: none;
+}

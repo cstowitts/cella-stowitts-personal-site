@@ -27,6 +27,13 @@ pageFooter.innerHTML = `<section class="socials-links-section">
 </section>
 <div class="email-link bottom">
     <a href="mailto:cellachungstowitts@gmail.com&subject=Connecting via your site" class="email-me-link">CellaChungStowitts@gmail.com</a>
-</div>`;
+</div>
+<div class="attribution-link-div">
+    <p class="attribution-link">
+        Illustration by 
+        <a href="https://icons8.com/illustrations/author/5eb2a7bd01d0360019f124e7">Olha Khomich</a> from <a href="https://icons8.com/illustrations">Ouch!</a>
+    </p>
+</div>
+`;
         
            
